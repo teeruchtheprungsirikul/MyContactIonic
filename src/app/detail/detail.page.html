@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ account.name.first }} {{ account.name.last }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="block" (click)="composeEmail()">Email</ion-button>
+  <ion-button expand="block" (click)="call()"> Make a call</ion-button>
+  <img src = "{{ account.picture.large }}"/>
+</ion-content>

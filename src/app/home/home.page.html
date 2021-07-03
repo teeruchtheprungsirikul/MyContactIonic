@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let item of contacts" (click)="viewDetail(item)">
+      <ion-avatar slot="start">
+        <img src="{{ item.picture.large }}">
+      </ion-avatar>
+      <div>
+        <h3>{{ item.name.first }} {{ item.name.last }}</h3>
+        <p>{{ item.cell }}</p>
+      </div>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "MyContactAPI",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

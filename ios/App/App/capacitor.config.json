@@ -1,0 +1,6 @@
+{
+	"appId": "NewApp.KU.contact",
+	"appName": "MyContactAPI",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
